@@ -19,6 +19,9 @@ app.onError((err, c) => {
 
 app.get('/', serveStatic({ path: './view/index.html' }))
 
+
+app.get('/_alive', serveStatic({ path: './_alive.jsonc' }))
+
 try {
     console.clear()
     console.log(`%c ${config.messgae} `, "background-color: red;");
