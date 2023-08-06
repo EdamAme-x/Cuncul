@@ -100,6 +100,14 @@
     "https://deno.land/x/hono@v3.2.7/utils/mime.ts": "e17bdbac85b97c3d223c48874c2abe867e0720461e9f7e0c340141c080b9c6d6",
     "https://deno.land/x/hono@v3.2.7/utils/url.ts": "40a4192da0a655a124c95063e0ab3924432805fcf45a3ffc8e4458029d609bbc",
     "https://deno.land/x/hono@v3.2.7/validator/index.ts": "6c986e8b91dcf857ecc8164a506ae8eea8665792a4ff7215471df669c632ae7c",
-    "https://deno.land/x/hono@v3.2.7/validator/validator.ts": "e52183ddf8cefc3cfe2788802fe6ce766df8ac904df485107b01cbcca167dbad"
+    "https://deno.land/x/hono@v3.2.7/validator/validator.ts": "e52183ddf8cefc3cfe2788802fe6ce766df8ac904df485107b01cbcca167dbad",
+    "https://esm.sh/react-dom@18.2.0/server": "a356014fe905a58b1da74149b1981d714a06338ce52f81cc07afc0946747ed76",
+    "https://esm.sh/stable/react@18.2.0/denonext/react.mjs": "3c4f23bcfc53b256fcfaf6f834fa9f584c3bb7be667b2682c6cb6ba8ef88f8e6",
+    "https://esm.sh/v130/react-dom@18.2.0/denonext/server.js": "0460557cf83e61c275692fc0b9b22837cad662db116c048e354eac3109f8b326",
+    "https://jspm.dev/npm:react-dom@18.2.0/server!cjs": "00bab163e8c5b9842facacefdd5b29a722c2b18de358446bf2f9a7718232bbc9",
+    "https://jspm.dev/npm:react@18!cjs": "c0bef1d08ada949221be8b2caf181e3a23c3b914d32648d22273f99bca56d277",
+    "https://jspm.dev/npm:react@18.2.0!cjs": "0d01bb5201570741511e6be3d962e2bbf45e27b1ebf93f1ed22d05a33e52232c",
+    "https://jspm.dev/react": "c0bef1d08ada949221be8b2caf181e3a23c3b914d32648d22273f99bca56d277",
+    "https://jspm.dev/react-dom@18.2.0/server": "28574945db7509e247664d122c16fa084d67088c7afd20607b8027ff6f750cfd"
   }
 }

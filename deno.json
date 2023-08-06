@@ -1,5 +1,8 @@
 {
     "tasks": {
         "start": "deno run -A Naxt-tuner/server.jsx & denon start"
+    },
+    "imports": {
+        "react": "https://jspm.dev/react"
     }
 }

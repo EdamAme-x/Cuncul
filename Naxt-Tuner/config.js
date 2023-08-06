@@ -1,4 +1,5 @@
 export const config = {
     messgae: "🔥 Running Naxt.js Server",
-    port: 8080
+    port: 8080,
+    clear: false
 }
