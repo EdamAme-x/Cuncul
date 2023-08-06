@@ -19,8 +19,23 @@ app.onError((err, c) => {
 
 app.get('/', serveStatic({ path: './view/index.html' }))
 
+// app.get('/*', serveStatic({ path: './view/' }))
 
 app.get('/_alive', serveStatic({ path: './_alive.jsonc' }))
+
+app.all('*', (c) => {
+    // if 
+    try {
+        const content = Deno.readTextFileSync("./view/_404.html");
+        return c.text(content);
+    } catch (error) {
+        if (error instanceof Deno.errors.NotFound) {
+            return c.html("404 Error", 404);
+        } else {
+            return c.text("Server Error", 500);
+        }
+    }
+})
 
 try {
     console.clear()
