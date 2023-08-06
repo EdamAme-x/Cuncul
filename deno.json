@@ -1,5 +1,5 @@
 {
     "tasks": {
-        "start": "deno run -A Naxt-tuner/server.js & denon start"
+        "start": "deno run -A Naxt-tuner/server.jsx & denon start"
     }
 }

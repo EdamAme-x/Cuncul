@@ -1,3 +1,3 @@
 # 👋 Welcome to Naxt.js
 
-php like
+HTML > JSX > Svelte > Vue

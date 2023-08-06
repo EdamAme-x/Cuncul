@@ -58,11 +58,10 @@ app.get('/', (c) => {
 app.get('/_alive', serveStatic({ path: './_alive.jsonc' }))
 
 
-
 app.get('/:path', async (c) => {
-    const path = c.req.param("path");
+    const path = c.req.path;
     try {
-        const content = await Deno.readTextFile("./view/" + path);
+        const content = await Deno.readTextFile(`./view${path}`);
         return c.html(content + `
         ${reloadScript}
         `);
