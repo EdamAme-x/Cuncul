@@ -13,7 +13,7 @@ console.clear();
 const app = new Hono()
 
 app.onError((err, c) => {
-    console.error(`Error: \n {err}`)
+    console.error(`Error: \n ${err}`)
     return c.text('Error', 500)
 })
 
